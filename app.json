@@ -1,0 +1,2108 @@
+[
+  {
+    "tipo": "ESCAVAÇÃO DE POSTE",
+    "atividades": [
+      {
+        "item": 631181,
+        "atividade": "Abert. cava, terreno arenoso ou brejo",
+        "unidade": "UND",
+        "qnd_umd": 4,
+        "total": 0
+      },
+      {
+        "item": 631191,
+        "atividade": "Abertura cava em rocha, com explosivo",
+        "unidade": "UND",
+        "qnd_umd": 14,
+        "total": 0
+      },
+      {
+        "item": 631201,
+        "atividade": "Abertura cava em rocha, sem explosivo",
+        "unidade": "UND",
+        "qnd_umd": 8.4,
+        "total": 0
+      },
+      {
+        "item": 631211,
+        "atividade": "Instalar Fechamento de cava",
+        "unidade": "UND",
+        "qnd_umd": 0.2,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "INSTALAÇÃO DE POSTE",
+    "atividades": [
+      {
+        "item": 631001,
+        "atividade": "Instalar Poste, Menor 12m c/ guindauto",
+        "unidade": "UND",
+        "qnd_umd": 1.5,
+        "total": 0
+      },
+      {
+        "item": 631002,
+        "atividade": "Retirar Poste, Menor 12m c/ guindauto",
+        "unidade": "UND",
+        "qnd_umd": 0.4,
+        "total": 0
+      },
+      {
+        "item": 631011,
+        "atividade": "Instalar Poste, de 12 a 15m c/ guindauto",
+        "unidade": "UND",
+        "qnd_umd": 3,
+        "total": 0
+      },
+      {
+        "item": 631012,
+        "atividade": "Retirar Poste, de 12 a 15m c/ guindauto",
+        "unidade": "UND",
+        "qnd_umd": 1.2,
+        "total": 0
+      },
+      {
+        "item": 631021,
+        "atividade": "Instalar Poste, acima 15m c/ guindauto",
+        "unidade": "UND",
+        "qnd_umd": 8.7,
+        "total": 0
+      },
+      {
+        "item": 631022,
+        "atividade": "Retirar Poste, acima 15m c/ guindauto",
+        "unidade": "UND",
+        "qnd_umd": 3.48,
+        "total": 0
+      },
+      {
+        "item": 631031,
+        "atividade": "Inst. Poste, Menor 300 daN – Manualmente",
+        "unidade": "UND",
+        "qnd_umd": 2.7,
+        "total": 0
+      },
+      {
+        "item": 631032,
+        "atividade": "Ret.  Poste, Menor 300 daN – Manualmente",
+        "unidade": "UND",
+        "qnd_umd": 1.08,
+        "total": 0
+      },
+      {
+        "item": 631041,
+        "atividade": "Inst. Poste, 300 a 1000 daN–Manualmente",
+        "unidade": "UND",
+        "qnd_umd": 3.6,
+        "total": 0
+      },
+      {
+        "item": 631042,
+        "atividade": "Ret. Poste, 300 a 1000 daN–Manualmente",
+        "unidade": "UND",
+        "qnd_umd": 1.44,
+        "total": 0
+      },
+      {
+        "item": 631051,
+        "atividade": "Inst. Poste, acima 1000 daN–Manualmente",
+        "unidade": "UND",
+        "qnd_umd": 4.2,
+        "total": 0
+      },
+      {
+        "item": 631052,
+        "atividade": "Ret. Poste, acima 1000 daN–Manualmente",
+        "unidade": "UND",
+        "qnd_umd": 1.68,
+        "total": 0
+      },
+      {
+        "item": 631131,
+        "atividade": "Instalar Aprumagem de Poste",
+        "unidade": "UND",
+        "qnd_umd": 0.5,
+        "total": 0
+      },
+      {
+        "item": 631171,
+        "atividade": "Instalar Abertura cava, terreno normal",
+        "unidade": "UND",
+        "qnd_umd": 0.8,
+        "total": 0
+      },
+      {
+        "item": 653461,
+        "atividade": "Instalar Estrutura de apoio provisório para Poste",
+        "unidade": "UND",
+        "qnd_umd": 0.384,
+        "total": 0
+      },
+      {
+        "item": 653462,
+        "atividade": "Retirar Estrutura de apoio provisório para Poste",
+        "unidade": "UND",
+        "qnd_umd": 0.134,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "BASE DO POSTE",
+    "atividades": [
+      {
+        "item": 634071,
+        "atividade": "Instalar Escora de Subsolo Simples",
+        "unidade": "UND",
+        "qnd_umd": 0.6,
+        "total": 0
+      },
+      {
+        "item": 634081,
+        "atividade": "Instalar Escora de Subsolo Dupla",
+        "unidade": "UND",
+        "qnd_umd": 0.8,
+        "total": 0
+      },
+      {
+        "item": 634091,
+        "atividade": "Instalar Sapata para Pântano",
+        "unidade": "UND",
+        "qnd_umd": 3,
+        "total": 0
+      },
+      {
+        "item": 634101,
+        "atividade": "Instalar Concretar Base de Poste",
+        "unidade": "UND",
+        "qnd_umd": 4,
+        "total": 0
+      },
+      {
+        "item": 653460,
+        "atividade": "Abertura de cava com engastamento de poste tipo tubulão",
+        "unidade": "UND",
+        "qnd_umd": 14.6,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "ESTRUTURA DE ALTA TRIFÁSICA",
+    "atividades": [
+      {
+        "item": 632001,
+        "atividade": "Inst. Estrut. N1, B1, M1, T1, TP5 – Cruz. Mad/Aço",
+        "unidade": "CNJ",
+        "qnd_umd": 0.4,
+        "total": 0
+      },
+      {
+        "item": 632002,
+        "atividade": "Ret. Estrut N1, B1, M1, T1, TP5 – Cruz. Mad/Aço",
+        "unidade": "CNJ",
+        "qnd_umd": 0.16,
+        "total": 0
+      },
+      {
+        "item": 632011,
+        "atividade": "Inst. Estrut. N2, B2, M2, T2 – Cruz. Mad/Aço",
+        "unidade": "CNJ",
+        "qnd_umd": 0.7,
+        "total": 0
+      },
+      {
+        "item": 632012,
+        "atividade": "Ret. Estrut. N2, B2, M2, T2 – Cruz. Mad/Aço",
+        "unidade": "CNJ",
+        "qnd_umd": 0.28,
+        "total": 0
+      },
+      {
+        "item": 632031,
+        "atividade": "Inst. Estrut. N3,B3,M3,T3,TP3 – Cruz. Mad/Aço",
+        "unidade": "CNJ",
+        "qnd_umd": 0.6,
+        "total": 0
+      },
+      {
+        "item": 632032,
+        "atividade": "Ret. Estrut. N3, B3, M3, T3,TP3 – Cruz. Mad/Aço.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.24,
+        "total": 0
+      },
+      {
+        "item": 632051,
+        "atividade": "Inst. Estrut. N4,B4,M4,T4,TP4 – Cruz. Mad/Aço.",
+        "unidade": "CNJ",
+        "qnd_umd": 1,
+        "total": 0
+      },
+      {
+        "item": 632052,
+        "atividade": "Ret. Estrut. N4,B4,M4,T4,TP4 – Cruz. Mad/Aço.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.4,
+        "total": 0
+      },
+      {
+        "item": 632091,
+        "atividade": "Inst. Estrut. N1,B1,M1,T1 – Cruz. Con.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.54,
+        "total": 0
+      },
+      {
+        "item": 632092,
+        "atividade": "Ret. Estrut. N1,B1,M1,T1 – Cruz. Con.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.216,
+        "total": 0
+      },
+      {
+        "item": 632101,
+        "atividade": "Inst. Estrut N2,B2,M2,T2 – Cruz. Con.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.946,
+        "total": 0
+      },
+      {
+        "item": 632102,
+        "atividade": "Ret.  Estrut. N2,B2,M2,T2 – Cruz. Con.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.378,
+        "total": 0
+      },
+      {
+        "item": 632121,
+        "atividade": "Inst. Estrut. N3,B3,M3,T3,TP3 – Cruz. Con.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.81,
+        "total": 0
+      },
+      {
+        "item": 632122,
+        "atividade": "Ret. Estrut. N3,B3,M3,T3,TP3 – Cruz. Con.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.324,
+        "total": 0
+      },
+      {
+        "item": 632141,
+        "atividade": "Inst. Estrut. N4,B4,M4,T4,TP4 – Cruz. Con.",
+        "unidade": "CNJ",
+        "qnd_umd": 1.35,
+        "total": 0
+      },
+      {
+        "item": 632142,
+        "atividade": "Ret. Estrut. N4,B4,M4,T4,TP4 – Cruz. Con.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.54,
+        "total": 0
+      },
+      {
+        "item": 653471,
+        "atividade": "Instalar Estrutura P1, P2, TP1, TP2",
+        "unidade": "CNJ",
+        "qnd_umd": 0.28,
+        "total": 0
+      },
+      {
+        "item": 653472,
+        "atividade": "Retirar Estrutura P1, P2, TP1, TP2",
+        "unidade": "CNJ",
+        "qnd_umd": 0.112,
+        "total": 0
+      },
+      {
+        "item": 653474,
+        "atividade": "Instalar Estrutura P3",
+        "unidade": "CNJ",
+        "qnd_umd": 0.49,
+        "total": 0
+      },
+      {
+        "item": 653475,
+        "atividade": "Retirar Estrutura P3",
+        "unidade": "CNJ",
+        "qnd_umd": 0.196,
+        "total": 0
+      },
+      {
+        "item": 653477,
+        "atividade": "Instalar Estrutura P4",
+        "unidade": "CNJ",
+        "qnd_umd": 0.7,
+        "total": 0
+      },
+      {
+        "item": 653478,
+        "atividade": "Retirar Estrutura P4",
+        "unidade": "CNJ",
+        "qnd_umd": 0.28,
+        "total": 0
+      },
+      {
+        "item": 653480,
+        "atividade": "Instalar estrutura CE1 e CE1A",
+        "unidade": "CNJ",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 653481,
+        "atividade": "Retirar estrutura CE1 e CE1A",
+        "unidade": "CNJ",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 653482,
+        "atividade": "Instalar estrutura CE2",
+        "unidade": "CNJ",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 653483,
+        "atividade": "Retirar estrutura CE2",
+        "unidade": "CNJ",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 653484,
+        "atividade": "Instalar estrutura CE3",
+        "unidade": "CNJ",
+        "qnd_umd": 0.6,
+        "total": 0
+      },
+      {
+        "item": 653485,
+        "atividade": "Retirar estrutura CE3",
+        "unidade": "CNJ",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 653486,
+        "atividade": "Instalar estrutura CE4",
+        "unidade": "CNJ",
+        "qnd_umd": 1,
+        "total": 0
+      },
+      {
+        "item": 653487,
+        "atividade": "Retirar estrutura CE4",
+        "unidade": "CNJ",
+        "qnd_umd": 0.5,
+        "total": 0
+      },
+      {
+        "item": 653496,
+        "atividade": "Instalação de cobertura protetora permanente para cabo nu",
+        "unidade": "UND",
+        "qnd_umd": 0.218,
+        "total": 0
+      },
+      {
+        "item": 653497,
+        "atividade": "Instalação do suporte L ou espaçador losangular",
+        "unidade": "UND",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 653498,
+        "atividade": "Remoção do suporte L ou espaçador losangular",
+        "unidade": "UND",
+        "qnd_umd": 0.05,
+        "total": 0
+      },
+      {
+        "item": 653499,
+        "atividade": "Instalação do braço antibalanço",
+        "unidade": "UND",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 653500,
+        "atividade": "Remoção do braço antibalanço",
+        "unidade": "UND",
+        "qnd_umd": 0.02,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "ESTRUTURA DE ALTA MONOFÁSICA",
+    "atividades": [
+      {
+        "item": 632181,
+        "atividade": "Instalar Estrutura Tipo U1, UP1",
+        "unidade": "CNJ",
+        "qnd_umd": 0.06,
+        "total": 0
+      },
+      {
+        "item": 632182,
+        "atividade": "Retirar  Estrutura Tipo U1, UP1",
+        "unidade": "CNJ",
+        "qnd_umd": 0.024,
+        "total": 0
+      },
+      {
+        "item": 632191,
+        "atividade": "Instalar Estrutura Tipo U2, UP2",
+        "unidade": "CNJ",
+        "qnd_umd": 0.08,
+        "total": 0
+      },
+      {
+        "item": 632192,
+        "atividade": "Retirar  Estrutura Tipo U2, UP2",
+        "unidade": "CNJ",
+        "qnd_umd": 0.032,
+        "total": 0
+      },
+      {
+        "item": 632201,
+        "atividade": "Instalar Estrutura Tipo U3, UP3",
+        "unidade": "CNJ",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 632202,
+        "atividade": "Retirar  Estrutura Tipo U3, UP3",
+        "unidade": "CNJ",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 632211,
+        "atividade": "Instalar Estrutura Tipo U4, UP4",
+        "unidade": "CNJ",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 632212,
+        "atividade": "Retirar  Estrutura Tipo U4,UP4",
+        "unidade": "CNJ",
+        "qnd_umd": 0.08,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "ESTRUTURA DE ALTA ANTIGOS",
+    "atividades": [
+      {
+        "item": 632231,
+        "atividade": "Instalar Estrutura Tipo HS",
+        "unidade": "CNJ",
+        "qnd_umd": 0.8,
+        "total": 0
+      },
+      {
+        "item": 632232,
+        "atividade": "Retirar  Estrutura Tipo HS",
+        "unidade": "CNJ",
+        "qnd_umd": 0.32,
+        "total": 0
+      },
+      {
+        "item": 632241,
+        "atividade": "Instalar Estrutura Tipo HT",
+        "unidade": "CNJ",
+        "qnd_umd": 2,
+        "total": 0
+      },
+      {
+        "item": 632242,
+        "atividade": "Retirar  Estrutura Tipo HT",
+        "unidade": "CNJ",
+        "qnd_umd": 0.8,
+        "total": 0
+      },
+      {
+        "item": 632321,
+        "atividade": "Nivelar e Alinhar Cruzeta",
+        "unidade": "UND",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 632331,
+        "atividade": "Revisar Cruzeta no Alto da Estrutura",
+        "unidade": "CNJ",
+        "qnd_umd": 0.01,
+        "total": 0
+      },
+      {
+        "item": 632341,
+        "atividade": "Inst. Pino Cruzeta ou Topo com Isolador",
+        "unidade": "UND",
+        "qnd_umd": 0.06,
+        "total": 0
+      },
+      {
+        "item": 632342,
+        "atividade": "Ret. Pino de Cruzeta ou Topo com Isol.",
+        "unidade": "UND",
+        "qnd_umd": 0.024,
+        "total": 0
+      },
+      {
+        "item": 632381,
+        "atividade": "Instalar Isolador de Disco / Bastão",
+        "unidade": "UNID",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 632382,
+        "atividade": "Retirar  Isolador de Disco / Bastão",
+        "unidade": "UNID",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 632431,
+        "atividade": "Lavação de Isoladores",
+        "unidade": "CNJ",
+        "qnd_umd": 0.18,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "ESTRUTURA DE BAIXA TENSÃO",
+    "atividades": [
+      {
+        "item": 633001,
+        "atividade": "Instalar Armação Secundária",
+        "unidade": "UNID",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 633002,
+        "atividade": "Retirar  Armação Secundária",
+        "unidade": "UNID",
+        "qnd_umd": 0.08,
+        "total": 0
+      },
+      {
+        "item": 633011,
+        "atividade": "Instalar Afastador Secundário",
+        "unidade": "UNID",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 633012,
+        "atividade": "Retirar  Afastador Secundário",
+        "unidade": "UNID",
+        "qnd_umd": 0.12,
+        "total": 0
+      },
+      {
+        "item": 633071,
+        "atividade": "Inst. Conj. Grampo Susp.Cabo Multiplex.",
+        "unidade": "UNID",
+        "qnd_umd": 0.301,
+        "total": 0
+      },
+      {
+        "item": 633072,
+        "atividade": "Ret. Conj. Grampo Susp.Cabo Multiplex.",
+        "unidade": "UNID",
+        "qnd_umd": 0.12,
+        "total": 0
+      },
+      {
+        "item": 635161,
+        "atividade": "Balanceamento Rede Secundária",
+        "unidade": "UNID",
+        "qnd_umd": 0.024,
+        "total": 0
+      },
+      {
+        "item": 635173,
+        "atividade": "Tensionamento do Ramal de Ligação",
+        "unidade": "UNID",
+        "qnd_umd": 0.016,
+        "total": 0
+      },
+      {
+        "item": 635181,
+        "atividade": "Instalar Espaçador de Baixa Tensão",
+        "unidade": "UNID",
+        "qnd_umd": 0.12,
+        "total": 0
+      },
+      {
+        "item": 635182,
+        "atividade": "Retirar  Espaçador de Baixa Tensão",
+        "unidade": "UNID",
+        "qnd_umd": 0.12,
+        "total": 0
+      },
+      {
+        "item": 635191,
+        "atividade": "InstCond Multiplex.BT Seção Fase=35 mm²",
+        "unidade": "km",
+        "qnd_umd": 30,
+        "total": 0
+      },
+      {
+        "item": 635192,
+        "atividade": "Ret Cond Multiplex BT Seção Fase=35 mm²",
+        "unidade": "km",
+        "qnd_umd": 12,
+        "total": 0
+      },
+      {
+        "item": 635201,
+        "atividade": "Inst Cond Multiplex BT Seção Fase=50 mm²",
+        "unidade": "km",
+        "qnd_umd": 33,
+        "total": 0
+      },
+      {
+        "item": 635202,
+        "atividade": "Ret Cond Multiplex BT Seção Fase=50mm²",
+        "unidade": "km",
+        "qnd_umd": 13.2,
+        "total": 0
+      },
+      {
+        "item": 635211,
+        "atividade": "Inst Cond Multiplex BT Seção Fase=70mm²",
+        "unidade": "km",
+        "qnd_umd": 36,
+        "total": 0
+      },
+      {
+        "item": 635212,
+        "atividade": "Ret Cond Multiplex BT Seção Fase=70mm²",
+        "unidade": "km",
+        "qnd_umd": 14,
+        "total": 0
+      },
+      {
+        "item": 635221,
+        "atividade": "Inst Cond Multiplex BT Seção Fase=120mm²",
+        "unidade": "km",
+        "qnd_umd": 40,
+        "total": 0
+      },
+      {
+        "item": 635222,
+        "atividade": "Ret Cond Multiplex BT Seção Fase=120mm²",
+        "unidade": "km",
+        "qnd_umd": 15,
+        "total": 0
+      },
+      {
+        "item": 635231,
+        "atividade": "Instalar Conector de BT, Tipo Perfurante ou ampactinho",
+        "unidade": "UNID",
+        "qnd_umd": 0.06,
+        "total": 0
+      },
+      {
+        "item": 635232,
+        "atividade": "Retirar  Conector de BT, Tipo Perfurante ou ampactinho",
+        "unidade": "UNID",
+        "qnd_umd": 0.024,
+        "total": 0
+      },
+      {
+        "item": 635251,
+        "atividade": "Emenda Cabo Multip.BT Seção 35 a 120mm²",
+        "unidade": "UNID",
+        "qnd_umd": 0.18,
+        "total": 0
+      },
+      {
+        "item": 635261,
+        "atividade": "Inst Flying-Tap/Cruzam.Aéreo,RDMultipl.",
+        "unidade": "UNID",
+        "qnd_umd": 0.06,
+        "total": 0
+      },
+      {
+        "item": 635262,
+        "atividade": "Ret Flying-Tap/CruzamAéreo, RD Multipl.",
+        "unidade": "UNID",
+        "qnd_umd": 0.024,
+        "total": 0
+      },
+      {
+        "item": 636121,
+        "atividade": "InstPára-Raios de BT, Redes Multiplex.",
+        "unidade": "UNID",
+        "qnd_umd": 0.06,
+        "total": 0
+      },
+      {
+        "item": 636122,
+        "atividade": "RetPára-Raios de BT, Redes Multiplex.",
+        "unidade": "UNID",
+        "qnd_umd": 0.024,
+        "total": 0
+      },
+      {
+        "item": 654282,
+        "atividade": "Instalação de Ramal de Ligação",
+        "unidade": "km",
+        "qnd_umd": 15,
+        "total": 0
+      },
+      {
+        "item": 654283,
+        "atividade": "Retirada de Ramal de Ligação",
+        "unidade": "km",
+        "qnd_umd": 6,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "INSTALAÇÃO DE TRAFO",
+    "atividades": [
+      {
+        "item": 635083,
+        "atividade": "Serviço em Condutor AT (Descida FU ao Trafo)",
+        "unidade": "fase",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 636021,
+        "atividade": "Instalar Transformador Monofásico",
+        "unidade": "UNID",
+        "qnd_umd": 2.4,
+        "total": 0
+      },
+      {
+        "item": 636022,
+        "atividade": "Retirar  Transformador Monofásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.96,
+        "total": 0
+      },
+      {
+        "item": 636031,
+        "atividade": "Instalar Transformador Trifásico",
+        "unidade": "UNID",
+        "qnd_umd": 5.2,
+        "total": 0
+      },
+      {
+        "item": 636032,
+        "atividade": "Retirar  Transformador Trifásico",
+        "unidade": "UNID",
+        "qnd_umd": 2.08,
+        "total": 0
+      },
+      {
+        "item": 654286,
+        "atividade": "Instalar Transformador Monofásico – Sem acesso de veículo",
+        "unidade": "UNID",
+        "qnd_umd": 4.32,
+        "total": 0
+      },
+      {
+        "item": 654287,
+        "atividade": "Retirar Transformador Monofásico – Sem acesso de veículo",
+        "unidade": "UNID",
+        "qnd_umd": 1.72,
+        "total": 0
+      },
+      {
+        "item": 654290,
+        "atividade": "Instalar Transformador Trifásico – Sem acesso de veículo",
+        "unidade": "UNID",
+        "qnd_umd": 9.36,
+        "total": 0
+      },
+      {
+        "item": 654291,
+        "atividade": "Retirar Transformador Trifásico – Sem acesso de veículo",
+        "unidade": "UNID",
+        "qnd_umd": 3.74,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "INSTALAR CONJUNTO COM CHAVE FACA",
+    "atividades": [
+      {
+        "item": 632451,
+        "atividade": "Inst. Estrut. c/ chave faca-Cruz.mad.",
+        "unidade": "CNJ",
+        "qnd_umd": 1.37,
+        "total": 0
+      },
+      {
+        "item": 632452,
+        "atividade": "Ret. Estrut. c/ chave faca-Cruz. Mad/Aço.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.45,
+        "total": 0
+      },
+      {
+        "item": 632471,
+        "atividade": "Inst. Estrut. c/ chave faca-Cruz. conc.",
+        "unidade": "CNJ",
+        "qnd_umd": 1.73,
+        "total": 0
+      },
+      {
+        "item": 632472,
+        "atividade": "Ret. Estrut. c/ chave faca-Cruzeta conc.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.57,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "INSTALAR CONJUNTO COM TRAFO",
+    "atividades": [
+      {
+        "item": 632441,
+        "atividade": "Inst. Estrut c/ transf. Trif.-Cruz. Mad/Aço",
+        "unidade": "CNJ",
+        "qnd_umd": 1.38,
+        "total": 0
+      },
+      {
+        "item": 632442,
+        "atividade": "Ret. Estrut c/ transf. Trif.-Cruz. Mad/Aço",
+        "unidade": "CNJ",
+        "qnd_umd": 0.46,
+        "total": 0
+      },
+      {
+        "item": 632461,
+        "atividade": "Inst. Estrut. c/ transf. Trif.-Cruz.Conc",
+        "unidade": "CNJ",
+        "qnd_umd": 1.623,
+        "total": 0
+      },
+      {
+        "item": 632462,
+        "atividade": "Ret. Estrut.c/ transf. Trif.-Cruz.conc.",
+        "unidade": "CNJ",
+        "qnd_umd": 0.541,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "INSTALAÇÃO DE PARA RÁIOS E CHAVES",
+    "atividades": [
+      {
+        "item": 636001,
+        "atividade": "Instalar Chave Fusível ou Faca-Fusível",
+        "unidade": "UNID",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 636002,
+        "atividade": "Retirar  Chave Fusível ou Faca-fusível",
+        "unidade": "UNID",
+        "qnd_umd": 0.08,
+        "total": 0
+      },
+      {
+        "item": 636011,
+        "atividade": "Instalar Pára-Raios",
+        "unidade": "UNID",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 636012,
+        "atividade": "Retirar  Pára-Raios",
+        "unidade": "UNID",
+        "qnd_umd": 0.08,
+        "total": 0
+      },
+      {
+        "item": 636041,
+        "atividade": "Instalar Chave a Óleo",
+        "unidade": "UNID",
+        "qnd_umd": 2.6,
+        "total": 0
+      },
+      {
+        "item": 636042,
+        "atividade": "Retirar  Chave a Óleo",
+        "unidade": "UNID",
+        "qnd_umd": 1.04,
+        "total": 0
+      },
+      {
+        "item": 636091,
+        "atividade": "Reaperto e Regulagem de Chave",
+        "unidade": "UNID",
+        "qnd_umd": 0.5,
+        "total": 0
+      },
+      {
+        "item": 636101,
+        "atividade": "Instalar Chave Faca",
+        "unidade": "UNID",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 636102,
+        "atividade": "Retirar  Chave Faca",
+        "unidade": "UNID",
+        "qnd_umd": 0.08,
+        "total": 0
+      },
+      {
+        "item": 636111,
+        "atividade": "Instalar Chave Religadora ou Religador Monofásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 636112,
+        "atividade": "Retirar  Chave Religadora ou Religador Monofásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.09,
+        "total": 0
+      },
+      {
+        "item": 639012,
+        "atividade": "Abrir chave fusível/faca",
+        "unidade": "UNID",
+        "qnd_umd": 0.05,
+        "total": 0
+      },
+      {
+        "item": 639021,
+        "atividade": "Fechar chave fusível/faca",
+        "unidade": "UNID",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 654266,
+        "atividade": "Instalar Chave by pass",
+        "unidade": "UNID",
+        "qnd_umd": 0.4,
+        "total": 0
+      },
+      {
+        "item": 654267,
+        "atividade": "Retirar  Chave by pass",
+        "unidade": "UNID",
+        "qnd_umd": 0.16,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "LANÇAMENTO DE CONDUTOR",
+    "atividades": [
+      {
+        "item": 635001,
+        "atividade": "Instalar Condutor 4CAA e 6CU",
+        "unidade": "km",
+        "qnd_umd": 4.6,
+        "total": 0
+      },
+      {
+        "item": 635002,
+        "atividade": "Retirar  Condutor 4CAA e 6CU",
+        "unidade": "km",
+        "qnd_umd": 1.84,
+        "total": 0
+      },
+      {
+        "item": 635011,
+        "atividade": "Inst. Cond. 2 a 2/0 CA/CAA e 4 a 1/0CU",
+        "unidade": "km",
+        "qnd_umd": 10.8,
+        "total": 0
+      },
+      {
+        "item": 635012,
+        "atividade": "Ret. Cond. 2 a 2/0 CA/CAA e 4 a 1/0CU",
+        "unidade": "km",
+        "qnd_umd": 4.32,
+        "total": 0
+      },
+      {
+        "item": 635021,
+        "atividade": "InstCond.Bit. maior 2/0 CA/CAA e 1/0CU",
+        "unidade": "km",
+        "qnd_umd": 15,
+        "total": 0
+      },
+      {
+        "item": 635022,
+        "atividade": "Ret. Cond.Bit. maior 2/0 CA/CAA e 1/0CU",
+        "unidade": "km",
+        "qnd_umd": 6,
+        "total": 0
+      },
+      {
+        "item": 635031,
+        "atividade": "Instalar Condutor de Aço",
+        "unidade": "km",
+        "qnd_umd": 6.3,
+        "total": 0
+      },
+      {
+        "item": 635032,
+        "atividade": "Retirar  Condutor de Aço",
+        "unidade": "km",
+        "qnd_umd": 2.52,
+        "total": 0
+      },
+      {
+        "item": 635041,
+        "atividade": "Retensionamento de Condutor (p/cond.)",
+        "unidade": "km",
+        "qnd_umd": 3,
+        "total": 0
+      },
+      {
+        "item": 635051,
+        "atividade": "Instalar Flying-Tap/ Cruzamento Aéreo",
+        "unidade": "fase",
+        "qnd_umd": 0.4,
+        "total": 0
+      },
+      {
+        "item": 635052,
+        "atividade": "Retirar  Flying-Tap/ Cruzamento Aéreo",
+        "unidade": "fase",
+        "qnd_umd": 0.16,
+        "total": 0
+      },
+      {
+        "item": 635061,
+        "atividade": "Inst Emenda Cond. c/ Luva ou Pré-formado",
+        "unidade": "UNID",
+        "qnd_umd": 0.014,
+        "total": 0
+      },
+      {
+        "item": 635073,
+        "atividade": "Refazer Amarração",
+        "unidade": "UNID",
+        "qnd_umd": 0.02,
+        "total": 0
+      },
+      {
+        "item": 653488,
+        "atividade": "Instalar Cabo Coberto até 70mm²",
+        "unidade": "km",
+        "qnd_umd": 14,
+        "total": 0
+      },
+      {
+        "item": 653489,
+        "atividade": "Retirar Cabo Coberto até 70mm²",
+        "unidade": "km",
+        "qnd_umd": 5,
+        "total": 0
+      },
+      {
+        "item": 653490,
+        "atividade": "Instalar Cabo Coberto maior que 70mm²",
+        "unidade": "km",
+        "qnd_umd": 19.6,
+        "total": 0
+      },
+      {
+        "item": 653491,
+        "atividade": "Retirar Cabo Coberto maior que 70mm²",
+        "unidade": "km",
+        "qnd_umd": 7,
+        "total": 0
+      },
+      {
+        "item": 653492,
+        "atividade": "Retensionamento de Condutor protegido (p/cond.)",
+        "unidade": "km",
+        "qnd_umd": 4.5,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "ESTRUTURA DE ESTAI",
+    "atividades": [
+      {
+        "item": 634001,
+        "atividade": "Instalar Estai de Ancora",
+        "unidade": "UNID",
+        "qnd_umd": 0.8,
+        "total": 0
+      },
+      {
+        "item": 634002,
+        "atividade": "Retirar  Estai de Ancora",
+        "unidade": "UNID",
+        "qnd_umd": 0.32,
+        "total": 0
+      },
+      {
+        "item": 634011,
+        "atividade": "Inst. Estai Ancora em Rocha s/ explosivo",
+        "unidade": "UNID",
+        "qnd_umd": 1.8,
+        "total": 0
+      },
+      {
+        "item": 634021,
+        "atividade": "Inst Estai Ancora em Rocha c/ explosivo",
+        "unidade": "UNID",
+        "qnd_umd": 4,
+        "total": 0
+      },
+      {
+        "item": 634031,
+        "atividade": "Inst. Estai de Ancora em Terreno Arenoso",
+        "unidade": "UNID",
+        "qnd_umd": 2.2,
+        "total": 0
+      },
+      {
+        "item": 634041,
+        "atividade": "Instalar Estaiamento Aéreo",
+        "unidade": "UNID",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 634042,
+        "atividade": "Retirar  Estaiamento Aéreo",
+        "unidade": "UNID",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 634051,
+        "atividade": "Instalar Retensionamento de Estai",
+        "unidade": "UNID",
+        "qnd_umd": 0.08,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "ATERRAMENTO",
+    "atividades": [
+      {
+        "item": 635111,
+        "atividade": "Instalar Aterramento, Primeira Haste",
+        "unidade": "ponto",
+        "qnd_umd": 0.8,
+        "total": 0
+      },
+      {
+        "item": 635121,
+        "atividade": "Instalar Aterramento, demais Hastes",
+        "unidade": "ponto",
+        "qnd_umd": 0.48,
+        "total": 0
+      },
+      {
+        "item": 635131,
+        "atividade": "Revisão do Aterramento",
+        "unidade": "UNID",
+        "qnd_umd": 0.4,
+        "total": 0
+      },
+      {
+        "item": 635141,
+        "atividade": "Seccion.Cerca, c/ Pré-formado e Aterr.",
+        "unidade": "UNID",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 635151,
+        "atividade": "Seccion.Cerca, c/ Mourões e Aterr.",
+        "unidade": "UNID",
+        "qnd_umd": 0.3,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "CONECTORES",
+    "atividades": [
+      {
+        "item": 635103,
+        "atividade": "Serviços em Conectores",
+        "unidade": "UNID",
+        "qnd_umd": 0.024,
+        "total": 0
+      },
+      {
+        "item": 635241,
+        "atividade": "Instalar Conector Tipo Cunha",
+        "unidade": "UNID",
+        "qnd_umd": 0.09,
+        "total": 0
+      },
+      {
+        "item": 635242,
+        "atividade": "Retirar  Conector Tipo Cunha",
+        "unidade": "UNID",
+        "qnd_umd": 0.036,
+        "total": 0
+      },
+      {
+        "item": 653493,
+        "atividade": "Instalar Conector em Cabo Protegido",
+        "unidade": "UNID",
+        "qnd_umd": 0.15,
+        "total": 0
+      },
+      {
+        "item": 653494,
+        "atividade": "Retirar  Conector em Cabo Protegido",
+        "unidade": "UNID",
+        "qnd_umd": 0.06,
+        "total": 0
+      },
+      {
+        "item": 653495,
+        "atividade": "Emenda em cabo protegido",
+        "unidade": "UNID",
+        "qnd_umd": 0.52,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "INSTALAÇÃO DE EQUIPAMENTO ESPECIAIS",
+    "atividades": [
+      {
+        "item": 636051,
+        "atividade": "Instalar Religador",
+        "unidade": "UNID",
+        "qnd_umd": 1.836,
+        "total": 0
+      },
+      {
+        "item": 636052,
+        "atividade": "Retirar  Religador",
+        "unidade": "UNID",
+        "qnd_umd": 1.377,
+        "total": 0
+      },
+      {
+        "item": 636071,
+        "atividade": "Instalar Capacitor",
+        "unidade": "UNID",
+        "qnd_umd": 2.909,
+        "total": 0
+      },
+      {
+        "item": 636072,
+        "atividade": "Retirar  Capacitor",
+        "unidade": "UNID",
+        "qnd_umd": 2.182,
+        "total": 0
+      },
+      {
+        "item": 639421,
+        "atividade": "Operar religador",
+        "unidade": "UNID",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 639431,
+        "atividade": "Operar regulador",
+        "unidade": "UNID",
+        "qnd_umd": 0.4,
+        "total": 0
+      },
+      {
+        "item": 654270,
+        "atividade": "Instalar Estrutura de Regulador",
+        "unidade": "UNID",
+        "qnd_umd": 3,
+        "total": 0
+      },
+      {
+        "item": 654271,
+        "atividade": "Retirar Estrutura de Regulador",
+        "unidade": "UNID",
+        "qnd_umd": 1.2,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "INSTALAÇÃO DE ILUMINAÇÃO PÚBLICA",
+    "atividades": [
+      {
+        "item": 637001,
+        "atividade": "Instalar Iluminação Pública Comum",
+        "unidade": "CNJ",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 637002,
+        "atividade": "Retirar  Iluminação Pública Comum",
+        "unidade": "CNJ",
+        "qnd_umd": 0.12,
+        "total": 0
+      },
+      {
+        "item": 637011,
+        "atividade": "Instalar Iluminação Pública Especial",
+        "unidade": "CNJ",
+        "qnd_umd": 0.9,
+        "total": 0
+      },
+      {
+        "item": 637012,
+        "atividade": "Retirar  Iluminação Pública Especial",
+        "unidade": "CNJ",
+        "qnd_umd": 0.36,
+        "total": 0
+      },
+      {
+        "item": 637021,
+        "atividade": "Inst Reator p/ Lâmpada Comum ou Especial",
+        "unidade": "UNID",
+        "qnd_umd": 0.08,
+        "total": 0
+      },
+      {
+        "item": 637022,
+        "atividade": "Ret Reator p/ Lâmpada Comum ou Especial",
+        "unidade": "UNID",
+        "qnd_umd": 0.032,
+        "total": 0
+      },
+      {
+        "item": 637031,
+        "atividade": "Instalar Rele Fotoelétrico Individual",
+        "unidade": "UNID",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 637032,
+        "atividade": "Retirar  Rele Fotoelétrico Individual",
+        "unidade": "UNID",
+        "qnd_umd": 0.016,
+        "total": 0
+      },
+      {
+        "item": 637041,
+        "atividade": "Instalar Chave Magnética",
+        "unidade": "UNID",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 637042,
+        "atividade": "Retirar  Chave Magnética",
+        "unidade": "UNID",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 637072,
+        "atividade": "Limpeza de vidro em luminária fechada",
+        "unidade": "UNID",
+        "qnd_umd": 0.04,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "ROÇADA E LIMPEZA",
+    "atividades": [
+      {
+        "item": 638002,
+        "atividade": "Limpeza Faixa c/ Veg. Rast.– 220/380 V",
+        "unidade": "km",
+        "qnd_umd": 0.761,
+        "total": 0
+      },
+      {
+        "item": 638012,
+        "atividade": "Limpeza Faixa c/Veg.Rast.– 6,6 a 25 kV",
+        "unidade": "km",
+        "qnd_umd": 1.521,
+        "total": 0
+      },
+      {
+        "item": 638022,
+        "atividade": "Limpeza Faixa c/Veg.Rast.– 34,5 kV",
+        "unidade": "km",
+        "qnd_umd": 2.281,
+        "total": 0
+      },
+      {
+        "item": 638032,
+        "atividade": "Limpeza Faixa c/Veg. até 2m – 220/380 V",
+        "unidade": "km",
+        "qnd_umd": 2.662,
+        "total": 0
+      },
+      {
+        "item": 638042,
+        "atividade": "Limpeza Faixa c/Veg.até 2m – 6,6 a25kV",
+        "unidade": "km",
+        "qnd_umd": 4.943,
+        "total": 0
+      },
+      {
+        "item": 638052,
+        "atividade": "Limpeza Faixa c/Veg.até 2m – 34,5kV",
+        "unidade": "km",
+        "qnd_umd": 7.224,
+        "total": 0
+      },
+      {
+        "item": 638062,
+        "atividade": "Limpeza Faixa c/Veg.acima 2m – 220/380 V",
+        "unidade": "km",
+        "qnd_umd": 5.323,
+        "total": 0
+      },
+      {
+        "item": 638072,
+        "atividade": "Limpeza Faixa c/Veg.ac.2m – 6,6 a 25 kV",
+        "unidade": "km",
+        "qnd_umd": 10.266,
+        "total": 0
+      },
+      {
+        "item": 638082,
+        "atividade": "Limpeza Faixa c/Veg.acima 2m – 34,5 kV",
+        "unidade": "km",
+        "qnd_umd": 14.449,
+        "total": 0
+      },
+      {
+        "item": 638092,
+        "atividade": "Poda de Arvore Área Urbana",
+        "unidade": "UNID",
+        "qnd_umd": 0.076,
+        "total": 0
+      },
+      {
+        "item": 638102,
+        "atividade": "Corte Arvore Área Urbana",
+        "unidade": "UNID",
+        "qnd_umd": 0.095,
+        "total": 0
+      },
+      {
+        "item": 638112,
+        "atividade": "Corte Bambuzal Isolado",
+        "unidade": "m2",
+        "qnd_umd": 0.152,
+        "total": 0
+      },
+      {
+        "item": 638122,
+        "atividade": "Poda de árvore área Rural",
+        "unidade": "UNID",
+        "qnd_umd": 0.038,
+        "total": 0
+      },
+      {
+        "item": 638132,
+        "atividade": "Corte de árvore área Rural",
+        "unidade": "UNID",
+        "qnd_umd": 0.038,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "INSPEÇÃO",
+    "atividades": [
+      {
+        "item": 639031,
+        "atividade": "Insp. circuito p/ localizar falha",
+        "unidade": "km",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 639201,
+        "atividade": "Verificar níveis de tensão",
+        "unidade": "UNID",
+        "qnd_umd": 0.08,
+        "total": 0
+      },
+      {
+        "item": 639291,
+        "atividade": "Inspec. estrutura de rede aérea urbana",
+        "unidade": "UNID",
+        "qnd_umd": 0.007,
+        "total": 0
+      },
+      {
+        "item": 639351,
+        "atividade": "Inst Afastador ninhos de joão-de-barro",
+        "unidade": "UNID",
+        "qnd_umd": 0.01,
+        "total": 0
+      },
+      {
+        "item": 639352,
+        "atividade": "Ret Afastador ninhos de joão-de-barro",
+        "unidade": "UNID",
+        "qnd_umd": 0.01,
+        "total": 0
+      },
+      {
+        "item": 653509,
+        "atividade": "Conserto de calçada",
+        "unidade": "UNID",
+        "qnd_umd": 0.9,
+        "total": 0
+      },
+      {
+        "item": 639301,
+        "atividade": "Inspec. estrutura de rede aérea rural",
+        "unidade": "UNID",
+        "qnd_umd": 0.035,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "LIGAÇÃO DE CONSUMIDORES",
+    "atividades": [
+      {
+        "item": 639041,
+        "atividade": "Ligar Un.cons.monof Gr B cabo multiplex.",
+        "unidade": "UNID",
+        "qnd_umd": 0.4,
+        "total": 0
+      },
+      {
+        "item": 639051,
+        "atividade": "Ligar Un.cons. bif. Gr B cabo multiplex",
+        "unidade": "UNID",
+        "qnd_umd": 0.45,
+        "total": 0
+      },
+      {
+        "item": 639061,
+        "atividade": "Ligar Un. Cons. trif Gr B cabo multiplex",
+        "unidade": "UNID",
+        "qnd_umd": 0.5,
+        "total": 0
+      },
+      {
+        "item": 639071,
+        "atividade": "LigUnConsMonof Gr B cond singelo isol",
+        "unidade": "UNID",
+        "qnd_umd": 0.25,
+        "total": 0
+      },
+      {
+        "item": 639081,
+        "atividade": "LigUnidconsbif Gr B cond singelo isol",
+        "unidade": "UNID",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 639091,
+        "atividade": "Lig. Un.constrif Gr B cond singelo isol",
+        "unidade": "UNID",
+        "qnd_umd": 0.35,
+        "total": 0
+      },
+      {
+        "item": 639101,
+        "atividade": "Ligar Unidcons Gr B edif uso coletivo",
+        "unidade": "UNID",
+        "qnd_umd": 0.09,
+        "total": 0
+      },
+      {
+        "item": 639112,
+        "atividade": "Desligar Unid Consumidora Monof Grupo B",
+        "unidade": "UNID",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 639122,
+        "atividade": "Desligar Unid Consumidora Bif Grupo B",
+        "unidade": "UNID",
+        "qnd_umd": 0.12,
+        "total": 0
+      },
+      {
+        "item": 639132,
+        "atividade": "Desligar Unid Consumidora Trif Grupo B",
+        "unidade": "UNID",
+        "qnd_umd": 0.14,
+        "total": 0
+      },
+      {
+        "item": 639141,
+        "atividade": "Religar Unid Consumidora Monof. Grupo B",
+        "unidade": "UNID",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 639151,
+        "atividade": "Religar Unidade Consumidora Bif. Grupo B",
+        "unidade": "UNID",
+        "qnd_umd": 0.12,
+        "total": 0
+      },
+      {
+        "item": 639161,
+        "atividade": "Religar Unidade Consumidora Trif. Grupo B",
+        "unidade": "UNID",
+        "qnd_umd": 0.14,
+        "total": 0
+      },
+      {
+        "item": 639171,
+        "atividade": "Alterar ligação de Unidade consumidora",
+        "unidade": "UNID",
+        "qnd_umd": 0.22,
+        "total": 0
+      },
+      {
+        "item": 639181,
+        "atividade": "Instalar Medidor de energia elétrica",
+        "unidade": "UNID",
+        "qnd_umd": 0.09,
+        "total": 0
+      },
+      {
+        "item": 639182,
+        "atividade": "Retirar  Medidor de energia elétrica",
+        "unidade": "UNID",
+        "qnd_umd": 0.09,
+        "total": 0
+      },
+      {
+        "item": 639191,
+        "atividade": "Fiscaliz/vistoriar entr um. cons Grupo B",
+        "unidade": "UNID",
+        "qnd_umd": 0.007,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "TRANSPORTE",
+    "atividades": [
+      {
+        "item": 652062,
+        "atividade": "Transporte de Transformador Monofásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.7,
+        "total": 0
+      },
+      {
+        "item": 652063,
+        "atividade": "Transporte de Transformador Trifásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.8,
+        "total": 0
+      },
+      {
+        "item": 652064,
+        "atividade": "Transporte de poste",
+        "unidade": "UNID",
+        "qnd_umd": 0.82,
+        "total": 0
+      },
+      {
+        "item": 652067,
+        "atividade": "Serv. deslocamento até local do serviço",
+        "unidade": "KM",
+        "qnd_umd": 0.03,
+        "total": 0
+      },
+      {
+        "item": 653508,
+        "atividade": "Transporte de Regulador",
+        "unidade": "UNID",
+        "qnd_umd": 0.8,
+        "total": 0
+      },
+      {
+        "item": 654294,
+        "atividade": "Transporte de Religador trifásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.7,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "SOBREAVISO",
+    "atividades": [
+      {
+        "item": 652065,
+        "atividade": "Disponibilidade de equipe reduzida (3 profissionais)",
+        "unidade": "UNID",
+        "qnd_umd": 0.154,
+        "total": 0
+      },
+      {
+        "item": 652066,
+        "atividade": "Disponibilidade de equipe completa (6 profissionais)",
+        "unidade": "UNID",
+        "qnd_umd": 0.324,
+        "total": 0
+      }
+    ]
+  },
+  {
+    "tipo": "OUTROS",
+    "atividades": [
+      {
+        "item": 633031,
+        "atividade": "Inst Cobertura Protetora de Rede Secund.",
+        "unidade": "Metro",
+        "qnd_umd": 0.004,
+        "total": 0
+      },
+      {
+        "item": 633042,
+        "atividade": "Retirar Objeto Estranho da Rede por vão",
+        "unidade": "UNID",
+        "qnd_umd": 0.06,
+        "total": 0
+      },
+      {
+        "item": 633052,
+        "atividade": "Limpeza de Condutores com Parasitas por vão",
+        "unidade": "UNID",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 636061,
+        "atividade": "Instalar Seccionalizador",
+        "unidade": "UNID",
+        "qnd_umd": 0.36,
+        "total": 0
+      },
+      {
+        "item": 636062,
+        "atividade": "Retirar  Seccionalizador",
+        "unidade": "UNID",
+        "qnd_umd": 0.27,
+        "total": 0
+      },
+      {
+        "item": 636081,
+        "atividade": "Inst Regulador em Plataf ou Auto-Booster",
+        "unidade": "UNID",
+        "qnd_umd": 6,
+        "total": 0
+      },
+      {
+        "item": 636082,
+        "atividade": "Ret Regulador em Plataf. ouAuto-Booster",
+        "unidade": "UNID",
+        "qnd_umd": 2.25,
+        "total": 0
+      },
+      {
+        "item": 639212,
+        "atividade": "Retirar  Placas e faixas inst em postes",
+        "unidade": "UNID",
+        "qnd_umd": 0.06,
+        "total": 0
+      },
+      {
+        "item": 639221,
+        "atividade": "Instalar Disjuntor de AT",
+        "unidade": "UNID",
+        "qnd_umd": 1.4,
+        "total": 0
+      },
+      {
+        "item": 639222,
+        "atividade": "Retirar  Disjuntor de AT",
+        "unidade": "UNID",
+        "qnd_umd": 0.6,
+        "total": 0
+      },
+      {
+        "item": 639231,
+        "atividade": "Instalar Disjuntor de AT – Operação",
+        "unidade": "UNID",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 639241,
+        "atividade": "Reaperto/regul. chavesectrip em cabine",
+        "unidade": "UNID",
+        "qnd_umd": 0.7,
+        "total": 0
+      },
+      {
+        "item": 639253,
+        "atividade": "Comutar TAP de transformador",
+        "unidade": "UNID",
+        "qnd_umd": 0.55,
+        "total": 0
+      },
+      {
+        "item": 639261,
+        "atividade": "Inst Cabo isol AT (15 e 25 kV) subter.",
+        "unidade": "Metro",
+        "qnd_umd": 0.18,
+        "total": 0
+      },
+      {
+        "item": 639262,
+        "atividade": "Ret  Caboisol. AT (15 e 25 kV) subter.",
+        "unidade": "Metro",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 639271,
+        "atividade": "Inst Cabo isol.BT(1kV)bit até 50mm² subt",
+        "unidade": "Metro",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 639272,
+        "atividade": "Ret Cabo isol.BT(1kV)bit até 50mm² subt",
+        "unidade": "Metro",
+        "qnd_umd": 0.03,
+        "total": 0
+      },
+      {
+        "item": 639281,
+        "atividade": "InstCabisol BT(1kV)acima de 50mm² subt",
+        "unidade": "Metro",
+        "qnd_umd": 0.06,
+        "total": 0
+      },
+      {
+        "item": 639282,
+        "atividade": "Ret Cab isol BT(1kV)bit acima 50mm² subt",
+        "unidade": "Metro",
+        "qnd_umd": 0.04,
+        "total": 0
+      },
+      {
+        "item": 639311,
+        "atividade": "Instalar Disjuntor monofásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.08,
+        "total": 0
+      },
+      {
+        "item": 639312,
+        "atividade": "Retirar  Disjuntor monofásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.08,
+        "total": 0
+      },
+      {
+        "item": 639321,
+        "atividade": "Instalar Disjuntor bifásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.09,
+        "total": 0
+      },
+      {
+        "item": 639322,
+        "atividade": "Retirar  Disjuntor bifásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.09,
+        "total": 0
+      },
+      {
+        "item": 639331,
+        "atividade": "Instalar Disjuntor trifásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 639332,
+        "atividade": "Retirar  Disjuntor trifásico",
+        "unidade": "UNID",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 639341,
+        "atividade": "Coleta de óleo de transformador",
+        "unidade": "UNID",
+        "qnd_umd": 0.2,
+        "total": 0
+      },
+      {
+        "item": 639361,
+        "atividade": "Instalar Mufla",
+        "unidade": "UNID",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 639362,
+        "atividade": "Retirar  Mufla",
+        "unidade": "UNID",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 639371,
+        "atividade": "Limpeza de cabines transformadoras",
+        "unidade": "UNID",
+        "qnd_umd": 0.8,
+        "total": 0
+      },
+      {
+        "item": 639381,
+        "atividade": "Instalar Transformador em cabine",
+        "unidade": "UNID",
+        "qnd_umd": 2.8,
+        "total": 0
+      },
+      {
+        "item": 639382,
+        "atividade": "Retirar  Transformador em cabine",
+        "unidade": "UNID",
+        "qnd_umd": 1.2,
+        "total": 0
+      },
+      {
+        "item": 639391,
+        "atividade": "Inst. Chave sec.tripolarinst em cabine",
+        "unidade": "UNID",
+        "qnd_umd": 2,
+        "total": 0
+      },
+      {
+        "item": 639392,
+        "atividade": "Ret. Chave sec tripolar inst. em cabine",
+        "unidade": "UNID",
+        "qnd_umd": 1,
+        "total": 0
+      },
+      {
+        "item": 639441,
+        "atividade": "Inspeção de Unidade Consumidora",
+        "unidade": "UNID",
+        "qnd_umd": 0.42,
+        "total": 0
+      },
+      {
+        "item": 652061,
+        "atividade": "Registro e acompanhamento de procedimentos",
+        "unidade": "UNID",
+        "qnd_umd": 0.1,
+        "total": 0
+      },
+      {
+        "item": 654274,
+        "atividade": "Instalar Perfil U prolongador",
+        "unidade": "UNID",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 654275,
+        "atividade": "Retirar Perfil U prolongador",
+        "unidade": "UNID",
+        "qnd_umd": 0.09,
+        "total": 0
+      },
+      {
+        "item": 654278,
+        "atividade": "Instalar Esfera Sinalizadora",
+        "unidade": "UNID",
+        "qnd_umd": 0.3,
+        "total": 0
+      },
+      {
+        "item": 654279,
+        "atividade": "Retirar Esfera Sinalizadora",
+        "unidade": "UNID",
+        "qnd_umd": 0.09,
+        "total": 0
+      },
+      {
+        "item": 654295,
+        "atividade": "Operação Verão Diurna",
+        "unidade": "Período",
+        "qnd_umd": 26,
+        "total": 0
+      },
+      {
+        "item": 654296,
+        "atividade": "Operação Verão Noturna",
+        "unidade": "Período",
+        "qnd_umd": 29,
+        "total": 0
+      },
+      {
+        "atividade": "Mobilização de Gerador Móvel",
+        "unidade": "UNID",
+        "qnd_umd": 20,
+        "total": 0
+      },
+      {
+        "atividade": "Operação de Gerador Móvel",
+        "unidade": "Hora",
+        "qnd_umd": 2,
+        "total": 0
+      },
+      {
+        "atividade": "Plantão de Equipe Leve de Emergência – 02 eletricistas em\nCaminhonete 4x4",
+        "unidade": "Hora",
+        "qnd_umd": 0.7,
+        "total": 0
+      },
+      {
+        "atividade": "Plantão de Equipe Leve de Emergência – 02 eletricistas em\nMotos",
+        "unidade": "Hora",
+        "qnd_umd": 0.45,
+        "total": 0
+      }
+    ]
+  }
+]
