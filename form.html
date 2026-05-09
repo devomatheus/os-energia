@@ -207,7 +207,11 @@
                             })
                                 .css("white-space", "pre-line")
                                 .text(ativ.atividade || "");
-                            $row.append($itemCell, $textCell);
+                            const $qtdBadge = $("<span>", {
+                                class: "badge text-bg-secondary rounded-pill flex-shrink-0 align-self-center ms-auto",
+                                title: "qnd_umd",
+                            }).text(formatQtd.format(qndUmd));
+                            $row.append($itemCell, $textCell, $qtdBadge);
                             $label.append($cb, $row);
                             $list.append($label);
                         });
