@@ -33,6 +33,10 @@
                                             Eletricista: <span id="infoEletricista" class="fw-semibold text-body">—</span><br>
                                             Obra: <span id="infoObra" class="fw-semibold text-body">—</span>
                                         </div>
+                                        <div class="mt-2 pt-2 border-top small">
+                                            <span class="text-body-secondary">Total acumulado das selecionadas:</span>
+                                            <span id="totalSelecionadoAcumulado" class="fw-semibold text-body ms-1">0</span>
+                                        </div>
                                     </div>
                                     <a href="./index.html" class="btn btn-sm btn-outline-primary align-self-start">
                                         Trocar
@@ -131,6 +135,44 @@
                     maximumFractionDigits: 3,
                 });
 
+                function lerQuantidadeInput($qtdIn) {
+                    let quantidade = parseInt(String($qtdIn.val()), 10);
+                    if (!Number.isFinite(quantidade) || quantidade < 1) {
+                        quantidade = 1;
+                        $qtdIn.val("1");
+                    }
+                    return quantidade;
+                }
+
+                function quantidadeParaSoma($qtdIn) {
+                    let q = parseInt(String($qtdIn.val()), 10);
+                    if (!Number.isFinite(q) || q < 1) {
+                        q = 1;
+                    }
+                    return q;
+                }
+
+                function atualizarTotalAcumulado() {
+                    let total = 0;
+                    $("#accordionAtividades input[type='checkbox'][name='ativ[]']:checked").each(function () {
+                        const $cb = $(this);
+                        const $qtdIn = $cb.closest("label").find("input.js-qtd-atividade");
+                        const qndUmd = Number($cb.data("qnd-umd") || 0);
+                        total += qndUmd * quantidadeParaSoma($qtdIn);
+                    });
+                    $("#totalSelecionadoAcumulado").text(formatQtd.format(total));
+                }
+
+                $("#accordionAtividades").on("change", "input[type='checkbox'][name='ativ[]']", function () {
+                    atualizarTotalAcumulado();
+                });
+                $("#accordionAtividades").on("input change", "input.js-qtd-atividade", function () {
+                    const $cb = $(this).closest("label").find("input[type='checkbox'][name='ativ[]']");
+                    if ($cb.is(":checked")) {
+                        atualizarTotalAcumulado();
+                    }
+                });
+
                 function escHtml(s) {
                     return String(s)
                         .replace(/&/g, "&amp;")
@@ -207,11 +249,36 @@
                             })
                                 .css("white-space", "pre-line")
                                 .text(ativ.atividade || "");
+                            const $qtdInput = $("<input>", {
+                                class: "form-control form-control-sm flex-shrink-0 js-qtd-atividade",
+                                type: "number",
+                                min: "1",
+                                step: "1",
+                                value: "1",
+                                inputmode: "numeric",
+                                "aria-label": "Quantidade",
+                                title: "Quantidade",
+                                style: "width: 4.25rem; max-width: 100%",
+                            });
+                            $qtdInput.on("click mousedown pointerdown", function (e) {
+                                e.stopPropagation();
+                            });
+                            $qtdInput.on("blur change", function () {
+                                let v = parseInt(String($(this).val()), 10);
+                                if (!Number.isFinite(v) || v < 1) {
+                                    v = 1;
+                                }
+                                $(this).val(String(v));
+                                const $cbLinha = $(this).closest("label").find("input[type='checkbox'][name='ativ[]']");
+                                if ($cbLinha.is(":checked")) {
+                                    atualizarTotalAcumulado();
+                                }
+                            });
                             const $qtdBadge = $("<span>", {
                                 class: "badge text-bg-secondary rounded-pill flex-shrink-0 align-self-center ms-auto",
                                 title: "qnd_umd",
                             }).text(formatQtd.format(qndUmd));
-                            $row.append($itemCell, $textCell, $qtdBadge);
+                            $row.append($itemCell, $textCell, $qtdInput, $qtdBadge);
                             $label.append($cb, $row);
                             $list.append($label);
                         });
@@ -227,11 +294,16 @@
                         .toArray()
                         .map(function (el) {
                             const $el = $(el);
+                            const $label = $el.closest("label");
+                            const $qtdIn = $label.find("input.js-qtd-atividade");
+                            const quantidade = lerQuantidadeInput($qtdIn);
+                            const qndUmd = Number($el.data("qnd-umd") || 0);
                             return {
                                 tipo: $el.data("tipo") || "",
                                 item: $el.data("item") || "",
                                 atividade: $el.data("atividade") || "",
-                                qndUmd: Number($el.data("qnd-umd") || 0),
+                                qndUmd: qndUmd,
+                                quantidade: quantidade,
                             };
                         });
 
@@ -278,8 +350,19 @@
                             })
                             .forEach(function (a) {
                                 const itemTxt = a.item ? '<span class="font-monospace text-body-secondary">' + escHtml(a.item) + "</span>" : '<span class="text-body-secondary">—</span>';
-                                const qtdTxt = formatQtd.format(a.qndUmd || 0);
-                                partes.push("<li>" + itemTxt + " — " + escHtml(a.atividade) + ' <span class="text-body-secondary">(qnd_umd: ' + escHtml(qtdTxt) + ")</span></li>");
+                                const qtdUmdTxt = formatQtd.format(a.qndUmd || 0);
+                                const qtdInTxt = formatQtd.format(a.quantidade || 1);
+                                partes.push(
+                                    "<li>" +
+                                        itemTxt +
+                                        " — " +
+                                        escHtml(a.atividade) +
+                                        ' <span class="text-body-secondary">(qtd: ' +
+                                        escHtml(qtdInTxt) +
+                                        "; qnd_umd: " +
+                                        escHtml(qtdUmdTxt) +
+                                        ")</span></li>"
+                                );
                             });
                         partes.push("</ul>");
                         partes.push('<div class="small text-body-secondary"><strong>Soma do tipo:</strong> ' + escHtml(formatQtd.format(g.soma)) + "</div>");
@@ -307,12 +390,14 @@
                         }
                         montarAccordionAtividades(grupos);
                         $("#btnSalvar").prop("disabled", false);
+                        atualizarTotalAcumulado();
                     })
                     .catch(function (err) {
                         $("#accordionAtividades").html(
                             '<p class="text-danger small mb-0 px-1">Não foi possível carregar <strong>app.json</strong>. Confira se o arquivo está na mesma pasta e, se necessário, use um servidor local (por exemplo <code class="small">python -m http.server</code>) para evitar bloqueio do navegador.</p>'
                         );
                         $("#btnSalvar").prop("disabled", true);
+                        atualizarTotalAcumulado();
                         console.error(err);
                     });
 
