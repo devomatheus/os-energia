@@ -143,6 +143,29 @@
                 const alertModal = new bootstrap.Modal(alertModalEl, { backdrop: "static" });
                 let alertModalPermitirImpressaoPdf = false;
 
+                /** WhatsApp para onde enviar o resumo: só dígitos (DDI + DDD + número). Ex.: 5511987654321 */
+                const WHATSAPP_DESTINO_DIGITOS = "5511999999999";
+
+                function abrirWhatsAppAposPdf(nomeArquivoPdf) {
+                    const digitos = String(WHATSAPP_DESTINO_DIGITOS || "").replace(/\D/g, "");
+                    if (digitos.length < 10) {
+                        return;
+                    }
+                    const obra = $("#infoObra").text().trim();
+                    const eletricista = $("#infoEletricista").text().trim();
+                    const texto =
+                        "Olá! Acabei de baixar o PDF do resumo da ordem de serviço.\n\n" +
+                        "Arquivo: " +
+                        nomeArquivoPdf +
+                        "\nObra: " +
+                        obra +
+                        "\nEletricista: " +
+                        eletricista +
+                        "\n\nAnexe o PDF nesta conversa para enviar.";
+                    const url = "https://wa.me/" + digitos + "?text=" + encodeURIComponent(texto);
+                    window.location.assign(url);
+                }
+
                 function showAlertModal(title, message) {
                     alertModalPermitirImpressaoPdf = false;
                     $("#alertModalTitle").text(title);
@@ -243,6 +266,7 @@
                                         restaurarHostPdf();
                                         alertModal.hide();
                                         $btn.prop("disabled", false).text(textoOriginal);
+                                        abrirWhatsAppAposPdf(nomeArquivo);
                                     },
                                 });
                                 if (htmlResult != null && typeof htmlResult.catch === "function") {
